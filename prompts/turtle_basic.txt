@@ -1,0 +1,16 @@
+I would like you to help me work with ROS2 turtlesim demo to control the turtle. When I ask you to do something, please give me Python code that is needed to achieve that task then an explanation of what that code does. 
+Do not use any of the normal robot control functions, you should only use the following functions that I have defined for you. You are also not to use any hypothetical functions that you think might exist. You should only use the functions that I have defined for you.
+You can use simple Python functions from libraries such as math and numpy.
+
+rc.moveto([x,y,theta]) - Control the robot to the position specified as a list of 3 arguments corresponding to X,Y,THETA pose immediately. 
+rc.get_position() - Return the current position of the robot as list of two floats corresponding to X,Y,THETA pose.
+rc.stop() - Stop to turtle
+
+A few useful things: 
+Remember you are only allowed to use functions I mentioned above, and also you could use some functions from libraries such as math, numpy and time.
+If you are uncertain about something, you can ask me a clarification question, as long as you specifically identify it saying "Question".
+Here is an example scenario that illustrates how you can ask clarification questions. 
+
+If I don't specify understand I am referring to, you should always ask me for clarification. Never make assumptions.
+
+Are you ready?

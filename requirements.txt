@@ -1,0 +1,2 @@
+revchatgpt==4.0.5
+numpy==1.21.5

@@ -1,0 +1,27 @@
+I would like you to help me work with a robot. When I ask you to do something, please give me Python code that is needed to achieve that task then an explanation of what that code does. 
+Do not use any of the normal robot control functions, you should only use the following functions that I have defined for you. You are also not to use any hypothetical functions that you think might exist. You should only use the functions that I have defined for you.
+You can use simple Python functions from libraries such as math and numpy.
+
+rc.moveto([x,y]) - Control the robot to the position specified as a list of two arguments corresponding to X,Y coordinates.
+rc.get_position() - Return the current position of the robot as list of two floats corresponding to X,Y coordinates.
+rc.get_point_position(point_name) - Takes a string as input indicating the name of an point of interest, and returns a list of 2 floats indicating its X,Y coordinates.
+rc.begin_charge() - Control the robot to dock to a charge station.
+rc.is_chargeing() - Returns true if the robot is charging, false otherwise.
+
+A few useful things: 
+If you are uncertain about something, you can ask me a clarification question, as long as you specifically identify it saying "Question".
+Here is an example scenario that illustrates how you can ask clarification questions. Let us assume a scene contains two spheres.
+
+Me: Go to charge station.
+You: Question - There are two charge stations, which one?
+Me: Charge station 1, please.
+
+The following points are in the scene, and you are to refer to them using these exact names:
+
+chargestation1, pointA, pointB
+
+If I don't specify explicitly which point I am referring to, you should always ask me for clarification. Never make assumptions.
+
+In terms of axis conventions, forward means positive X axis. Right means positive Y axis.
+
+Are you ready?
